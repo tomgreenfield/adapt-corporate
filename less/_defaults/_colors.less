@@ -1,0 +1,182 @@
+// Colour definitions
+// --------------------------------------------------
+@blue: #36CDE8;
+@blueDark: #263944;
+@green: #00b140;
+@grey: #9096A0;
+@greyDark: #4D4D4D;
+
+// These variables are used to change the colour of text
+// Primary use is for altering the text colour over a background image
+// See ../project/theme-extras.less for block mixin
+// --------------------------------------------------
+@transparent-light: transparent;
+@transparent-dark: transparent;
+
+// Note: If customising a theme for the Authoring Tool please update the
+// corresponding default value for that variable in the properties.schema file.
+// This is to stop any amended variables below being overwritten by
+// the Theme Picker in the Authoring Tool.
+
+// Body, link, and heading colour
+// --------------------------------------------------
+@font-color: @black;
+@font-color-inverted: @white;
+
+@link: @green;
+@link-inverted: @font-color-inverted;
+
+@link-hover: @link;
+@link-inverted-hover: @link-inverted;
+
+@heading-color: @black;
+@heading-color-inverted: @white;
+
+// Items - components
+// --------------------------------------------------
+@item-color: @white;
+@item-color-inverted: @black;
+
+@item-color-hover: @black;
+@item-color-inverted-hover: @white;
+
+@item-color-selected: @black;
+@item-color-inverted-selected: @white;
+
+// Visited - presentation components
+// --------------------------------------------------
+@visited: #727272;
+@visited-inverted: @white;
+
+// Buttons
+// --------------------------------------------------
+@btn-color: @white;
+@btn-color-inverted: @black;
+
+@btn-color-hover: @black;
+@btn-color-inverted-hover: @white;
+
+// Button icon
+// --------------------------------------------------
+@btn-icon-color: @nav-icon;
+@btn-icon-color-inverted: @nav-icon-inverted;
+
+@btn-icon-color-hover: @nav-icon-hover;
+@btn-icon-color-inverted-hover: @nav-icon-inverted-hover;
+
+// Disabled - question components
+// --------------------------------------------------
+@disabled: #DDDDDD;
+@disabled-inverted: @black;
+
+// Validation states - question marking
+// --------------------------------------------------
+@validation-success: #065f28;
+@validation-success-inverted: @white;
+
+@validation-error: #ff0000;
+@validation-error-inverted: @white;
+
+// Progress
+// --------------------------------------------------
+@progress: @green;
+@progress-inverted: @white;
+@progress-border: @green;
+
+// Menu
+// --------------------------------------------------
+@menu-item: @white;
+@menu-item-inverted: @font-color;
+@menu-item-border-color: @item-color;
+
+@menu-item-progress: @progress;
+@menu-item-progress-inverted: @progress-inverted;
+@menu-item-progress-border: @progress-border;
+
+@menu-item-btn-color: @btn-color;
+@menu-item-btn-color-inverted: @btn-color-inverted;
+
+@menu-item-btn-color-hover: @btn-color-hover;
+@menu-item-btn-color-inverted-hover: @btn-color-inverted-hover;
+
+// Navigation
+// --------------------------------------------------
+@nav: @black;
+@nav-inverted: @white;
+
+@nav-icon: @black;
+@nav-icon-inverted: @white;
+
+@nav-icon-hover: darken(@nav-icon, 10%);
+@nav-icon-inverted-hover: @green;
+
+@nav-progress: @nav-icon-inverted;
+@nav-progress-inverted: @nav-icon;
+@nav-progress-border: @nav-icon-inverted;
+
+@nav-progress-hover: @nav-icon-inverted-hover;
+@nav-progress-inverted-hover: @nav-progress-inverted;
+@nav-progress-border-hover: @green;
+
+// Notify
+// --------------------------------------------------
+@notify: @green;
+@notify-inverted: @white;
+
+@notify-link: @notify-inverted;
+
+@notify-link-hover: @black;
+
+@notify-btn: @transparent-light;
+@notify-btn-inverted: @btn-color;
+
+@notify-btn-hover: @white;
+@notify-btn-inverted-hover: @black;
+
+@notify-icon: @notify;
+@notify-icon-inverted: @notify-inverted;
+
+@notify-icon-hover: @white;
+@notify-icon-inverted-hover: @black;
+
+// Drawer
+// --------------------------------------------------
+@drawer: @black;
+@drawer-inverted: @white;
+
+@drawer-link: @drawer-inverted;
+
+@drawer-link-hover: @drawer-link;
+
+@drawer-icon: @drawer;
+@drawer-icon-inverted: @drawer-inverted;
+
+@drawer-icon-hover: darken(@drawer-icon, 10%);
+@drawer-icon-inverted-hover: @green;
+
+@drawer-item: @drawer;
+@drawer-item-inverted: @drawer-inverted;
+
+@drawer-item-hover: darken(@drawer-item, 10%);
+@drawer-item-inverted-hover: @green;
+
+@drawer-item-selected: @green;
+@drawer-item-inverted-selected: @drawer-item-inverted;
+
+@drawer-progress: @drawer-item-inverted;
+@drawer-progress-inverted: @drawer-item;
+@drawer-progress-border: @drawer-item-inverted;
+
+@drawer-progress-hover: @drawer-item-inverted-hover;
+@drawer-progress-inverted-hover: @drawer-item-hover;
+@drawer-progress-border-hover: @green;
+
+// Background
+// --------------------------------------------------
+@background: @black;
+@background-inverted: @white;
+
+// Shadow
+// --------------------------------------------------
+@shadow: @black;
+@shadow-inverted: @white;

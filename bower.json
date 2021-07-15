@@ -1,0 +1,16 @@
+{
+  "name": "adapt-corporate",
+  "version": "0.1.0",
+  "framework": ">=5.3",
+  "displayName": "Corporate",
+  "theme": "corporate",
+  "targetAttribute": "_corporate",
+  "description": "An alternative theme for Adapt",
+  "main": "js/theme.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-theme"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/tomgreenfield/adapt-corporate"
+}
